@@ -2,12 +2,15 @@ class LoginPage {
   get usernameTextBox() {
     return $("#username");
   }
+
   get passwordTextBox() {
     return $("#password");
   }
+
   get loginButton() {
-    return $('button[type="submit]');
+    return $('button[type="submit"]');
   }
+
   get messageBox() {
     return $("#flash");
   }
@@ -19,7 +22,7 @@ class LoginPage {
   }
 
   async checkMessage(msg) {
-    await expect(this.loginMessage).toHaveTextContaining(msg);
+    await expect(this.messageBox).toHaveTextContaining(msg);
   }
 }
 

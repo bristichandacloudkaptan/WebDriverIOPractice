@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2026-07-12T15:39:45" time="7.177" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.150_0_7871_115.mac"/>
+      <property name="file" value="file://./test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.150_0_7871_115.mac.Demo_Tests" name="My First Test" time="7.175">
+      <system-out><![CDATA[
+COMMAND: POST /session/48783becdf58f53cd865924353342246/url - {"url":"https://google.com/"}
+RESULT: {"url":"https://google.com/"}
+COMMAND: POST /session/48783becdf58f53cd865924353342246/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/48783becdf58f53cd865924353342246/element/f.E0BF5C3CA135C34034BA5D615DF80D0A.d.86CBF88793A51AA4A7DE919740059749.e.1/clear - {}
+RESULT: {}
+COMMAND: POST /session/48783becdf58f53cd865924353342246/element/f.E0BF5C3CA135C34034BA5D615DF80D0A.d.86CBF88793A51AA4A7DE919740059749.e.1/value - {"text":"WebDriverIO"}
+RESULT: {"text":"WebDriverIO"}
+COMMAND: POST /session/48783becdf58f53cd865924353342246/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/48783becdf58f53cd865924353342246 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>alue - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/cc19b766a45364c79e1706035eff7d8e/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/cc19b766a45364c79e1706035eff7d8e/element/f.B9DFB2FA9ABC89D149B5A3F2AC7A9C6C.d.C4D6DFF8B9EACB22F057FA009FEE82D7.e.6/click - {}
+RESULT: {}
+COMMAND: POST /session/cc19b766a45364c79e1706035eff7d8e/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/cc19b766a45364c79e1706035eff7d8e/elements - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/cc19b766a45364c79e1706035eff7d8e/elements - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/cc19b766a45364c79e1706035eff7d8e/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: GET /session/cc19b766a45364c79e1706035eff7d8e/element/f.B9DFB2FA9ABC89D149B5A3F2AC7A9C6C.d.F1E9547A7E399A9333B8618A7836EE2A.e.14/text - {}
+RESULT: {}
+COMMAND: POST /session/cc19b766a45364c79e1706035eff7d8e/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: GET /session/cc19b766a45364c79e1706035eff7d8e/element/f.B9DFB2FA9ABC89D149B5A3F2AC7A9C6C.d.F1E9547A7E399A9333B8618A7836EE2A.e.14/text - {}
+RESULT: {}
+COMMAND: DELETE /session/cc19b766a45364c79e1706035eff7d8e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
